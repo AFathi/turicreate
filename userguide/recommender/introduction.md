@@ -33,7 +33,7 @@ actions = tc.SFrame.read_csv('./dataset/ml-20m/ratings.csv')
 ```
 
 For information on how to load data into an SFrame from other sources,
-see the chapter on [SFrames](../sframe/sframe-intro.html).
+see the chapter on [SFrames](../sframe/sframe-intro.md).
 
 You may have additional data about users or items. For example we might
 have a dataset of movie metadata.
@@ -93,4 +93,4 @@ The following sections provide more information about the recommender model:
 - [Choosing a model](choosing-a-model.md)
   * data you might encounter (implicit or explicit)
   * types of models worth considering (item-based similarity, factorization-based models, and so on).
-- [API Docs](https://apple.github.io/turicreate/docs/turicreate.toolkits.recommender.html)
+- [API Docs](https://apple.github.io/turicreate/docs/api/turicreate.toolkits.recommender.html)
