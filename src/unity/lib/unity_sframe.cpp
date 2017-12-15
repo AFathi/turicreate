@@ -717,7 +717,7 @@ std::shared_ptr<unity_sframe_base> unity_sframe::head(size_t nrows) {
         *out = row;
         ++out;
         ++row_counter;
-        if (row_counter == nrows) return true;
+        if (row_counter == nrows-1) return true;
       }
       return false;
     };
